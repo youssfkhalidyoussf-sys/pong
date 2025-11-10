@@ -1,5 +1,0 @@
-{
-  "name": "Neon Pong",
-  "description": "A retro-themed 2D Pong game built with React and Tailwind CSS. Features single-player mode against an AI, responsive touch/mouse controls, sound effects, and vibrant neon aesthetics. Test your reflexes in this classic arcade challenge!",
-  "requestFramePermissions": []
-}
