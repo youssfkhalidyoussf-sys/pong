@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Pong</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Press Start 2P', cursive;
+        background-color: #0d0d2b;
+        color: #fff;
+        overflow: hidden;
+      }
+      .neon-text {
+        text-shadow:
+          0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 20px #0ff,
+          0 0 30px #0ff,
+          0 0 40px #0ff,
+          0 0 55px #0ff,
+          0 0 75px #0ff;
+      }
+      .neon-box {
+         box-shadow:
+          0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 20px #0ff;
+      }
+      .neon-paddle {
+         box-shadow:
+          0 0 5px #fff,
+          0 0 10px #f0f,
+          0 0 20px #f0f;
+      }
+       .neon-ball {
+         box-shadow:
+          0 0 5px #fff,
+          0 0 10px #ff0,
+          0 0 20px #ff0;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
